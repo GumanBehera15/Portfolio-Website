@@ -7,7 +7,7 @@ import { Frameworks } from "../components/FrameWorks.jsx"
 const About = () => {
   const grid2Container = useRef(null);
   return (
-     <section className="c-space section-spacing" id="about">
+     <section className="relative c-space section-spacing" id="about">
       <h2 className="text-heading">About Me</h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
         {/* Grid 1 */}

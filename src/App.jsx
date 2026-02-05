@@ -3,6 +3,8 @@ import Navbar from './sections/Navbar'
 import Hero from './sections/Hero'
 import About from './sections/About'
 import Projects from './sections/Projects'
+import Experiences from './sections/Experiences'
+import Education from './sections/Education'
 
 const App = () => {
   return (
@@ -10,9 +12,9 @@ const App = () => {
         <Navbar />
         <Hero />
         <About />
+        <Education />
         <Projects />
-        {/* navbar*/}
-        {/* navbar*/}
+        <Experiences />
         {/* navbar*/}
         {/* navbar*/}
         {/* navbar*/}
